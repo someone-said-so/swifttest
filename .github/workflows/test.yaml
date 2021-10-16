@@ -9,8 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Show Xcode version
-        run: xcodebuild -version
       - name: Build
         run: swift build
       - name: Run tests
