@@ -13,3 +13,5 @@ accessibitlyIdentifierで該当のものを検索し、ラベルテキストが�
 
 ## ワインポイントノート
 - `Build Settings`のrunpathに"${FRAMEWORK_SEARCH_PATHS}"を追加する
+$ swift package init
+$ swift package generate-xcodeproj
