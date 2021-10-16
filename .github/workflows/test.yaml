@@ -2,9 +2,6 @@ name: Swift
 
 on: [push]
 
-env:
-  DEVELOPER_DIR: /Applications/Xcode_12.5.app
-
 jobs:
   build:
 
